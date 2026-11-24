@@ -4,7 +4,6 @@
 # - Có nút Đặt lại bộ đếm.
 # - Sử dụng phương thức bind()
 # -----------------------------------------------------------------------------
-
 import tkinter as tk
 soLanClick = 0
 
