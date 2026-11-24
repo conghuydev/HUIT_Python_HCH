@@ -18,7 +18,9 @@ def luuThongTin():
 
 def thoat():
     xacNhan = mb.askyesno("Xác nhận", "Bạn có chắc chắn muốn thoát không?")
-    root.destroy()
+    
+    if xacNhan:
+        root.destroy()
     
 root = tk.Tk()
 root.title("Frame và LabelFrame trong Tkinter")
