@@ -21,11 +21,11 @@ def hienThiThongTin():
     
     if chonDocSach.get():
         dsSoThich.append("Doc sach")
-    elif chonNgheNhac.get():
+    if chonNgheNhac.get():
         dsSoThich.append("Nghe nhac")
-    elif chonTheThao.get():
+    if chonTheThao.get():
         dsSoThich.append("The thao")
-    else:
+    if not dsSoThich:
         dsSoThich.append("Khong co")
         
      
